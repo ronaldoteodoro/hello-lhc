@@ -1,0 +1,16 @@
+name: hello-lhc
+version: 1.0
+summary: Hello world application for LHC
+description: |
+  This is yet another hello-world clone ...
+grade: stable
+confinement: strict
+
+apps:
+  hello-lhc:
+    command: bin/hello-lhc
+
+parts:
+  simple:
+    plugin: make
+    source: .
