@@ -1,4 +1,4 @@
-name: hello-lhc
+name: vai-lhc
 version: 1.0
 summary: Hello world application for LHC
 description: |
@@ -7,7 +7,7 @@ grade: stable
 confinement: strict
 
 apps:
-  hello-lhc:
+  vai-lhc:
     command: bin/hello-lhc
 
 parts:
